@@ -8,7 +8,7 @@ public class Point {
         double two = Math.pow(b,2);
         double three = one + two;
 
-                return Math.sqrt(three);
+        return Math.sqrt(three);
     }
     public static void main(String[] args){
 double result = Point.distance(2, 3,5,7);
