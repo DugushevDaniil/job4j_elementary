@@ -1,7 +1,6 @@
 package ru.job4j;
 
-public class Arguments
-{
+public class Arguments {
     public static void hello(String name) {
     System.out.println("Hello, " + name);
 }
