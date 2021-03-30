@@ -4,7 +4,6 @@ import java.text.DecimalFormat;
 
 public class Converter {
     public static int rubleToEuro(int value) {
-
         return value / 70;
     }
 
