@@ -30,17 +30,18 @@ public class FindLoopTest {
         int expected = -1;
         Assert.assertEquals(expected, result);
     }
-        @Test
-        public void whenArrayHasLength5Then0() {
+
+    @Test
+    public void whenArrayHasLength5Then0() {
             int[] data = new int[] {5, 10, 3};
             int el = 5;
             int result = FindLoop.indexOf(data, el);
             int expected = 0;
             Assert.assertEquals(expected, result);
-        }
+    }
 
-        @Test
-        public void whenFind3() {
+    @Test
+    public void whenFind3() {
             int[] data = new int[] {5, 2, 10, 2, 4};
             int el = 2;
             int start = 2;
@@ -49,6 +50,7 @@ public class FindLoopTest {
             int expected = 3;
             Assert.assertEquals(expected, result);
         }
+
     @Test
     public void whenFind5() {
         int[] data = new int[] {5, 4, 1, 2, 7};
@@ -59,6 +61,7 @@ public class FindLoopTest {
         int expected = -1;
         Assert.assertEquals(expected, result);
     }
+
     @Test
     public void whenFind8() {
         int[] data = new int[] {6, 3, 1, 8, 0};
@@ -69,6 +72,7 @@ public class FindLoopTest {
         int expected = 3;
         Assert.assertEquals(expected, result);
     }
+
     @Test
     public void whenFind9() {
         int[] data = new int[] {1, 2, 9, 2, 4};
