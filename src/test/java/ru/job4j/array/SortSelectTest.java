@@ -35,4 +35,20 @@ public class SortSelectTest {
         int[] expected = new int[] {0, 2, 4, 6, 8, 10};
         Assert.assertArrayEquals(expected, result);
     }
+
+    @Test
+    public void whenSort5() {
+        int[] data = new int[] {10, 8, 6};
+        int[] result = SortSelected.sort(data);
+        int[] expected = new int[] {6, 8, 10};
+        Assert.assertArrayEquals(expected, result);
+    }
+
+    @Test
+    public void whenSort6() {
+        int[] data = new int[] {7, 1, 3, 9, 12};
+        int[] result = SortSelected.sort(data);
+        int[] expected = new int[] {1, 3, 7, 9, 12};
+        Assert.assertArrayEquals(expected, result);
+    }
 }
