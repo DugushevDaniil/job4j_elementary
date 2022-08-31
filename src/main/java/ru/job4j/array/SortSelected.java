@@ -9,5 +9,5 @@ public class SortSelected {
         SwitchArray.swap(data, i, index);
     }
         return data;
-}
+    }
 }
