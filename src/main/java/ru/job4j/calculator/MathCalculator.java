@@ -18,7 +18,6 @@ public class MathCalculator {
                 + difference(first, second)
                 + multiply(first, second)
                 + sum(first, second);
-
     }
 
     public static void main(String[] args) {

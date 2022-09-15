@@ -8,7 +8,6 @@ public class Arguments {
     public static void main(String[] args) {
         String name = "Daniil";
         int age = 33;
-
         Arguments.hello(name);
     }
 }
