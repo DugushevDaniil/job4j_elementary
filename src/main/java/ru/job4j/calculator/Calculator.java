@@ -6,11 +6,11 @@ public class Calculator {
         int six = 6;
         int four = 4;
         int five = 5;
-        int Div = six / two;
-        int Subtract = five - two;
-        int Multi = four * two;
-        System.out.println(Div);
-        System.out.println(Subtract);
-        System.out.println(Multi);
+        int div = six / two;
+        int subtract = five - two;
+        int multi = four * two;
+        System.out.println(div);
+        System.out.println(subtract);
+        System.out.println(multi);
     }
 }
